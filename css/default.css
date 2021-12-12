@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(134, 87, 113);
+}
+
+body {
+    color: white;
+}
+.bg-img {
+    padding-top: 32px;
+
+}
+
+/* header */
+header {
+    max-width: 400px;
+}
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
