@@ -7,11 +7,9 @@
 img {
     width: 100%;
 }
-
 ul {
     list-style: none;
 }
-
 a {
     color: white;
     text-decoration: none;
@@ -23,16 +21,19 @@ a:hover {
 /* 全体 */
 body {
     color: white;
+    background-color: rgb(132, 185, 187);
+
 }
 .bg-img {
     padding-top: 32px;
     width:100vw;
     height: 100vh;
     background-image: url("../images/home.PNG");
-    background-color: rgb(132, 185, 187);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
+    transition: opacity 1s;
 
 }
 .container {
@@ -65,5 +66,7 @@ footer {
     right: 20px;
     text-align: right;
 }
-
-
+/* javascript */
+.hide {
+    opacity: 0;
+}
