@@ -24,7 +24,7 @@
     flex-wrap: wrap;
 }
 .staff_flex p {
-    margin-right: 48px;
+    margin-right: 16px;
     white-space: nowrap;
 }
 
@@ -41,5 +41,6 @@
 }
 .cast {
     width: 150px;
+    margin-bottom: 12px;
 }
 
