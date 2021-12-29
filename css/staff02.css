@@ -29,18 +29,17 @@
 }
 
 
-.cast {
-    width: 100px;
-}
 .casts {
+
+    margin-top: 48px;
+}
+.each-cast {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+}
+.cast {
+    width: 150px;
 }
 
-
-/* .eachStaff {
-    display: flex;
-    justify-content: space-evenly;
-
-} */
