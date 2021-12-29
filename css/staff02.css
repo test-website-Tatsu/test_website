@@ -1,0 +1,46 @@
+/* .casts-row {
+    display: flex;
+    justify-content: center;
+} */
+
+
+.about_staff_item {
+    box-sizing: border-box;
+    border: 1px black solid;
+    border-bottom: none;
+    padding: 48px;
+}
+.staff_bottom {
+    border-bottom: 1px black solid;
+}
+.staff_name_big {
+    font-size: 32px;
+    /* font-weight: bold; */
+}
+
+.staff_flex {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.staff_flex p {
+    margin-right: 48px;
+    white-space: nowrap;
+}
+
+
+.cast {
+    width: 100px;
+}
+.casts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* .eachStaff {
+    display: flex;
+    justify-content: space-evenly;
+
+} */
