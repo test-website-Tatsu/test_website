@@ -71,6 +71,7 @@ header a:hover {
 /* main */
 main {
     padding: 32px 16px;
+    min-height: 90vh;
 }
 
 

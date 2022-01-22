@@ -9,8 +9,13 @@
     <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
 
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/humberger.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
+    <div class="openbtn1"><span></span><span></span><span></span></div>
     <div id="win-height">
 
         <header>
@@ -19,15 +24,22 @@
                 <ul>
                     <li><a href="pamphlet.html">Pamphlet</a></li>
                     <li><a href="staff.html">Staff</a></li>
+                    <li><a href="cast.html">Cast</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </header>
         <main class="container">
             <h2>Contact</h2>
-            <h3>HomePage</h3>
-            <h3>Twitter</h3>
-            <h3>Instagram</h3>
+            <div class="contents">
+
+                <table class="collapse">
+                    <tbody>
+                        <tr><td class="fx">HomePage</td> <td class="gk">Twitter</td></tr>
+                        <tr><td class="ed">Instagram</td></tr>
+                    </tbody>
+                </table>
+            </div>
         </main>
     </div>
     <div id="water_drop" style="height: 100px;"></div>
@@ -45,8 +57,10 @@
     src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
     integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
     crossorigin="anonymous"></script>
+    <!-- warterdrop -->
     <script src="javascript/raindrops.js"></script>
-    <!--自作のJS-->
     <script src="javascript/water-drop.js"></script>
+
+    <script src="javascript/humberger.js"></script>
 </body>
 </html>

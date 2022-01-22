@@ -1,0 +1,57 @@
+
+.big-cast {
+    margin: 0 auto;
+}
+.big-cast .top{
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/staff/DSC07784.JPG");
+    background-color: rgb(99, 99, 99);
+    background-blend-mode:darken;
+    filter: grayscale(100%);
+
+    background-size: cover;
+}
+.big-cast .bottom{
+    /* height: 50%; */
+    position: relative;
+    top: -50px;
+    left: 50px;
+    color: white;
+    /* background-color: rgb(150, 196, 202); ; */
+}
+.big-cast .bottom h3 {
+    flex: 1;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+/* .big-cast .bottom p {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
+} */
+.small-casts {
+    display: flex;
+    color: white;
+    text-align: center;
+    
+}
+.each-cast {
+    margin: 8px;
+    box-sizing: border-box;
+    filter: grayscale(100%);
+    background-color: rgb(44, 44, 44);
+    background-blend-mode:darken;
+}
+
+
+
+/* @media screen and (max-width: 680px) {
+    .casts {
+        flex-direction: column;
+    }
+ } */
